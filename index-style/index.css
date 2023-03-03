@@ -29,10 +29,14 @@
   font-weight: 500;
   padding: 10px;
   line-height: 1.3em;
-  color: #2446A9;
+  color: #2445a9;
   background-color: rgba(255, 255, 255, 0.6078431373);
 }
-.bd-cont .mid-section1 .about .about-text-head {
+.bd-cont .mid-section1 .main-about-cont {
+  padding: 20px 10px;
+  background-color: rgba(230, 229, 229, 0.2823529412);
+}
+.bd-cont .mid-section1 .main-about-cont .about .about-text-head {
   text-transform: uppercase;
   font-size: 1.3em;
   font-weight: 700;
@@ -40,23 +44,24 @@
   color: #0E34A0;
   padding: 8px 0;
 }
-.bd-cont .mid-section1 .about .about-cont {
+.bd-cont .mid-section1 .main-about-cont .about .about-cont {
   padding: 10px 10px;
-  background-color: rgba(230, 229, 229, 0.231372549);
 }
-.bd-cont .mid-section1 .about .about-cont .about-text {
+.bd-cont .mid-section1 .main-about-cont .about .about-cont .about-text {
   font-size: 0.85em;
   line-height: 1.55em;
-  padding: 9px;
   letter-spacing: 0.01em;
   color: rgba(0, 0, 0, 0.756);
 }
-.bd-cont .mid-section1 .about .about-cont .about-text .site-name {
+.bd-cont .mid-section1 .main-about-cont .about .about-cont .about-text .site-name {
   color: #343434;
   font-size: 1em;
   font-weight: 500;
 }
-.bd-cont .mid-section1 .about .about-cont .more-detail button {
+.bd-cont .mid-section1 .main-about-cont .about .about-cont .more-detail {
+  margin-top: 15px;
+}
+.bd-cont .mid-section1 .main-about-cont .about .about-cont .more-detail button {
   padding: 15px 20px;
   margin: 5px 0;
   border: none;
@@ -71,7 +76,7 @@
   transition: 0.5s;
   background-color: #0E34A0;
 }
-.bd-cont .mid-section1 .about .about-cont .more-detail button:hover {
+.bd-cont .mid-section1 .main-about-cont .about .about-cont .more-detail button:hover {
   color: white;
   background-color: #540154;
 }

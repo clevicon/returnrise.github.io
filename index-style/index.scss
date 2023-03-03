@@ -4,7 +4,8 @@
     // overflow-x: hidden;
     // background: rgba(107, 6, 92, 0.311);
     // height: 100vh;
-    .head-cont{position: relative;
+    .head-cont{
+        position: relative;
         // background-color: rgba(104, 7, 102, 0.454);
         .head-img{
             // width: 50px;
@@ -40,7 +41,7 @@
                 font-weight: 500;
                 padding: 10px;
                 line-height: 1.3em;
-                color:#2446A9;
+                color:#2445a9;
                 background-color: #ffffff9b;
             }
         }
@@ -51,66 +52,75 @@
        
         // height: 500px;
 
-        .about{
-            .about-text-head{
-                text-transform: uppercase;
-                font-size: 1.3em;
-                font-weight: 700;
-                margin-left: 8px;
-                color: #0E34A0;
-                padding: 8px 0;
-            }
+        .main-about-cont{
+            padding: 20px 10px;
+            background-color:#e6e5e548;
 
-            .about-cont{
-                padding: 10px 10px;
-                // margin-top: 30px;
-                background-color:#e6e5e53b;;
 
-                .about-text{
-                    .site-name{
-                        color:#343434;
-                        font-size: 1em;
-                        font-weight: 500;
-                    }
-                    font-size: 0.85em;
-                    line-height: 1.55em;
-                    padding: 9px;
-                    letter-spacing: 0.01em;
-                    color: rgba(0, 0, 0, 0.756);
-                    // width: 300px;
-                    
-                    
+            .about{
+                // background-color:#e6e5e57e;
+    
+                .about-text-head{
+                    text-transform: uppercase;
+                    font-size: 1.3em;
+                    font-weight: 700;
+                    margin-left: 8px;
+                    color: #0E34A0;
+                    padding: 8px 0;
                 }
-
-                .more-detail{
-                    
-                    button{
-                        padding: 15px 20px;
-                        margin: 5px 0;
-                        border:none;
-                       text-transform: uppercase;
-                       font-weight: 500;
-                       text-align: center;
-                       border-radius: 5px;
-                       font-size: 0.75em;
-                       text-align: center;
-                       color:white ;
-                       text-transform: uppercase;
-                       transition: 0.5s;
-                       background-color:#0E34A0 ;
-   
-                       &:hover{
-                       color: white ;
-                           background-color:#540154;
-                       }
-
+    
+                .about-cont{
+                    padding: 10px 10px;
+                    // margin-top: 30px;
+                    // background-color:#e6e5e53b;
+    
+                    .about-text{
+                        .site-name{
+                            color:#343434;
+                            font-size: 1em;
+                            font-weight: 500;
+                        }
+                        font-size: 0.85em;
+                        line-height: 1.55em;
+                        // padding: 9px;
+                        letter-spacing: 0.01em;
+                        color: rgba(0, 0, 0, 0.756);
+                        // width: 300px;
+                        
+                        
                     }
-                    
-                    
+    
+                    .more-detail{
+                        margin-top: 15px;
+                        button{
+                            padding: 15px 20px;
+                            margin: 5px 0;
+                            border:none;
+                           text-transform: uppercase;
+                           font-weight: 500;
+                           text-align: center;
+                           border-radius: 5px;
+                           font-size: 0.75em;
+                           text-align: center;
+                           color:white ;
+                           text-transform: uppercase;
+                           transition: 0.5s;
+                           background-color:#0E34A0 ;
+       
+                           &:hover{
+                           color: white ;
+                               background-color:#540154;
+                           }
+    
+                        }
+                        
+                        
+                    }
                 }
+               
             }
-           
         }
+        
     }
 
     .mid-section2{

@@ -32,6 +32,78 @@
   color: white;
   background-color: rgba(36, 69, 169, 0.6470588235);
 }
+.bd-cont .mid-section1 .banner img {
+  width: 100%;
+}
+.bd-cont .mid-section1 .mid-section-intro {
+  position: relative;
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+.bd-cont .mid-section1 .mid-section-intro .intro-details {
+  margin-bottom: 40px;
+}
+.bd-cont .mid-section1 .mid-section-intro .intro-details .intro-head {
+  font-size: 1.4em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #0E34A0;
+  margin-bottom: 10px;
+}
+.bd-cont .mid-section1 .mid-section-intro .intro-details .intro-msg {
+  font-size: 1.1em;
+  font-weight: 500;
+  padding-left: 10px;
+  text-transform: capitalize;
+}
+.bd-cont .mid-section1 .mid-section-intro .line {
+  position: absolute;
+  bottom: 78px;
+  left: 40px;
+  background-color: #0E34A0;
+  padding: 1px;
+  height: 250px;
+}
+.bd-cont .mid-section1 .mid-section-intro .stack-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.bd-cont .mid-section1 .mid-section-intro .stack-cont .box {
+  height: 60px;
+  width: 60px;
+  transform: rotate(45deg);
+  background-color: white;
+  border: 1px solid #021b5e;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bd-cont .mid-section1 .mid-section-intro .stack-cont .box img {
+  width: 50px;
+  height: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transform: rotate(-45deg);
+}
+.bd-cont .mid-section1 .mid-section-intro .stack-cont .stack-text-cont {
+  width: 70%;
+}
+.bd-cont .mid-section1 .mid-section-intro .stack-cont .stack-text-cont .stack-head {
+  text-transform: uppercase;
+  font-size: 1em;
+  color: #343434;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.bd-cont .mid-section1 .mid-section-intro .stack-cont .stack-text-cont .stack-text {
+  text-transform: capitalize;
+  font-size: 0.8em;
+  line-height: 1.5em;
+}
 .bd-cont .mid-section1 .main-about-cont {
   padding: 20px 10px;
   background-color: rgba(230, 229, 229, 0.4235294118);

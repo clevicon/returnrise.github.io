@@ -203,8 +203,7 @@
   transition: 0.5s;
 }
 .bd-cont .mid-section3 .deposit-plans .trial-plan-cont .signup-btn:hover {
-  color: white;
-  background-color: #7F5A83;
+  background-color: #021b5e;
 }
 .bd-cont .mid-section4 .pic-brk img {
   width: 100%;
@@ -266,4 +265,67 @@
 .bd-cont .mid-section4 .company-info-cont .company-info-details .info .title {
   color: #2446A9;
   font-weight: 500;
+}
+.bd-cont .mid-section4 .company-info-cont .cert-btn {
+  margin-top: 20px;
+}
+.bd-cont .mid-section4 .company-info-cont .cert-btn button {
+  padding: 12px 40px;
+  margin: 5px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9em;
+  font-weight: 600;
+  text-align: center;
+  color: #0E34A0;
+  background-color: transparent;
+  border: 1px solid #0E34A0;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+.bd-cont .mid-section4 .company-info-cont .cert-btn button:hover {
+  color: white;
+  background-color: #021b5e;
+}
+.bd-cont .mid-section5 {
+  background-color: rgba(52, 52, 52, 0.062745098);
+  margin-top: 10px;
+  padding: 20px;
+}
+.bd-cont .mid-section5 .cash-inflow {
+  text-align: center;
+}
+.bd-cont .mid-section5 .cash-inflow .total-amount {
+  position: relative;
+  background-color: #0e35a0;
+  color: white;
+  border-radius: 10px;
+  padding: 50px;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 45px 0;
+}
+.bd-cont .mid-section5 .cash-inflow .total-amount .total-amount-icon img {
+  position: absolute;
+  top: -30px;
+  transform: translate(-50%);
+  background-color: white;
+  border: 1px solid #e4e5ee;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.bd-cont .mid-section5 .cash-inflow .total-amount .total-amount-title {
+  position: absolute;
+  top: 15%;
+  left: 4%;
+  text-transform: capitalize;
+  font-size: 0.5em;
+}
+.bd-cont .mid-section5 .cash-inflow .total-amount .total-amount-title .title-icon {
+  position: absolute;
+  right: -15px;
 }/*# sourceMappingURL=index.css.map */

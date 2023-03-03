@@ -32,6 +32,9 @@
   color: white;
   background-color: rgba(36, 69, 169, 0.6470588235);
 }
+.bd-cont .mid-section1 {
+  padding: 10px;
+}
 .bd-cont .mid-section1 .banner img {
   width: 100%;
 }

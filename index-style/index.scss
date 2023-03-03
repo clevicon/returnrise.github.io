@@ -6,7 +6,7 @@
     // height: 100vh;
     .head-cont{
         position: relative;
-        // background-color: rgba(104, 7, 102, 0.454);
+        // background-color:rgba(0, 0, 255, 0.068);
         .head-img{
             // width: 50px;
             img{
@@ -14,7 +14,7 @@
                 width:100%;
                 object-fit: cover;
                 opacity: 0.6;
-                filter: blur(2px);
+                filter: blur(1px);
 
             }
         }
@@ -30,9 +30,8 @@
                 font-size: 1.9em;
                 font-weight: 700;
                 line-height: 1.5em;
-                color: #0E34A0;
+                color: #2446A9;
                 text-transform: capitalize;
-
             }
 
             .intro{
@@ -41,8 +40,10 @@
                 font-weight: 500;
                 padding: 10px;
                 line-height: 1.3em;
-                color:#2445a9;
-                background-color: #ffffff9b;
+                // color:#2445a9;
+                color:white;
+                
+                background-color: #2445a9a5;
             }
         }
     }
@@ -54,7 +55,7 @@
 
         .main-about-cont{
             padding: 20px 10px;
-            background-color:#e6e5e548;
+            background-color:#e6e5e56c;
 
 
             .about{

@@ -9,7 +9,7 @@
   -o-object-fit: cover;
      object-fit: cover;
   opacity: 0.6;
-  filter: blur(2px);
+  filter: blur(1px);
 }
 .bd-cont .head-cont .head-text {
   position: absolute;
@@ -20,7 +20,7 @@
   font-size: 1.9em;
   font-weight: 700;
   line-height: 1.5em;
-  color: #0E34A0;
+  color: #2446A9;
   text-transform: capitalize;
 }
 .bd-cont .head-cont .head-text .intro {
@@ -29,12 +29,12 @@
   font-weight: 500;
   padding: 10px;
   line-height: 1.3em;
-  color: #2445a9;
-  background-color: rgba(255, 255, 255, 0.6078431373);
+  color: white;
+  background-color: rgba(36, 69, 169, 0.6470588235);
 }
 .bd-cont .mid-section1 .main-about-cont {
   padding: 20px 10px;
-  background-color: rgba(230, 229, 229, 0.2823529412);
+  background-color: rgba(230, 229, 229, 0.4235294118);
 }
 .bd-cont .mid-section1 .main-about-cont .about .about-text-head {
   text-transform: uppercase;

@@ -13,6 +13,7 @@
                 width:100%;
                 object-fit: cover;
                 opacity: 0.6;
+                filter: blur(2px);
 
             }
         }
@@ -20,26 +21,27 @@
         .head-text{
             // background-color: rgba(243, 241, 241, 0.466);
             position: absolute;
-            padding: 10px;
+            // padding: 10px;
             top: 6%;
-            width: 70%;
+            // width: 70%;
             .welcome-text{
-                font-size: 2em;
-                font-weight: 600;
+                padding: 10px;
+                font-size: 1.9em;
+                font-weight: 700;
                 line-height: 1.5em;
-                color: rgba(71, 3, 62, 0.674);
+                color: #0E34A0;
                 text-transform: capitalize;
 
             }
 
             .intro{
                 margin-top: 10px;
-                font-size: 0.9em;
+                font-size: 0.95em;
                 font-weight: 500;
                 padding: 10px;
                 line-height: 1.3em;
-                color: rgba(56, 55, 56, 0.674);
-                background-color: rgba(192, 192, 192, 0.747);
+                color:#2446A9;
+                background-color: #ffffff9b;
             }
         }
     }
@@ -51,22 +53,22 @@
 
         .about{
             .about-text-head{
-                text-transform: capitalize;
-                font-size: 1.8em;
+                text-transform: uppercase;
+                font-size: 1.3em;
                 font-weight: 700;
-                margin-bottom: 10px;
-                color: #760376;
-                padding: 10px;
+                margin-left: 8px;
+                color: #0E34A0;
+                padding: 8px 0;
             }
 
             .about-cont{
                 padding: 10px 10px;
                 // margin-top: 30px;
-                background-color:#fdaaf540;;
+                background-color:#e6e5e53b;;
 
                 .about-text{
                     .site-name{
-                        color:#760376;
+                        color:#343434;
                         font-size: 1em;
                         font-weight: 500;
                     }
@@ -95,7 +97,7 @@
                        color:white ;
                        text-transform: uppercase;
                        transition: 0.5s;
-                       background-color:#760376e2 ;
+                       background-color:#0E34A0 ;
    
                        &:hover{
                        color: white ;
@@ -124,10 +126,11 @@
             font-size:1.3em;
             // text-align: center;
             font-weight: 700;
-            color:#760376;
+            color:#0E34A0;
             text-transform:uppercase;
             margin-bottom: 30px;
-            border: 1px dotted purple;
+            border: 1px dotted #2F3061;
+            border-radius: 5px;
             padding: 10px;
         }
         
@@ -153,7 +156,7 @@
         .title-head{
             font-size: 1.8em;
             font-weight: 700;
-            color:#760376;
+            color:#0E34A0;
             text-transform:uppercase;
             margin-bottom: 10px;
         }
@@ -161,12 +164,12 @@
         .deposit-plans-subtext{
             text-align: center;
             font-size: 0.85em;
-            margin-bottom: 10px;
+            margin-bottom: 0px;
             width: 250px;
             line-height: 1.5em;
             
             .site-name{
-                color:#760376;
+                color:#2F3061;
                     font-size: 1em;
                     font-weight: 500;
             }
@@ -180,16 +183,20 @@
 
             .trial-plan-cont{
                 position: relative;
-                padding: 80px 40px;
+                padding: 90px 40px;
                 // width:250px;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
                 border-radius: 5px;
-                background-color: #76037655;
-                margin: 60px 0;
-                border: 2px dotted white;
+                // background-color: #76037655;
+                color: rgb(44, 44, 44);
+                background-color:#ffffff;
+                
+
+                margin: 40px 0;
+                border: 2px dotted #2F3061;
 
                 
 
@@ -201,8 +208,10 @@
                         position: absolute;
                         top: -30px;
                         transform: translate(-50%);
-                        background-color:#ecaeed;
-                        border: 2px solid white;
+                        // background-color:#ecaeed;
+                        background-color:white;
+
+                        border: 2px solid #2F3061;
                         height: 60px;
                         width: 60px;
                         border-radius: 50%;
@@ -227,7 +236,8 @@
                         font-size:2em;
                         font-weight: 600;
                         margin-bottom: 8px;
-                         color: #4f0151;
+                        //  color: #4f0151;
+                        color: #0E34A0;
 
                         
                     }
@@ -235,6 +245,7 @@
                     .duration{
                         font-weight: 400;
                         font-size: 0.85em;
+                        color: #343434;
                         
                     }
                     
@@ -242,15 +253,17 @@
 
                 .trial-plan-info{
                     li{
-                        padding: 5px;
+                        padding: 8px;
                         font-size: 0.9em;
                         font-weight: 500;
-                        color: #444444;
+                        // color: #444444;
+                        color:#343434;
                         text-transform: capitalize;
 
                         span{
                             padding: 5px;
-                            color: #4d004d;
+                            // color: #4d004d;
+                            color: #343434;
                             font-weight: 600;
                         }
                     }
@@ -266,13 +279,14 @@
                     font-size: 0.9em;
                     font-weight: 600;
                     text-align: center;
-                    color:#760376 ;
+                    color:white ;
+                    background-color: #0E34A0;
                     text-transform: uppercase;
                     transition: 0.5s;
 
                     &:hover{
                     color:white ;
-                        background-color: #540154;
+                        background-color: #7F5A83;
                     }
                 }
             }
@@ -298,7 +312,7 @@
             .stats-info-head{
                 text-align: center;
                 font-size: 1.6em;
-                color:#760376;
+                color:#0E34A0;
                 font-weight: 700;
                 text-transform: uppercase;
                 margin-bottom: 5px;
@@ -312,14 +326,14 @@
                     display: flex;
                     justify-content:space-between;
                     align-items: center;
-                    font-size: 0.95em;
-                    font-weight:400;
+                    font-size: 0.85em;
+                    font-weight:500;
                     text-transform: uppercase;
                     padding: 5px 0;
 
                     .details{
                     font-weight:600;
-                    color: #570080;
+                    color: #2446A9;
 
                     }
                 }
@@ -341,7 +355,7 @@
                 text-align: center;
                 font-size: 1.6em;
                 font-weight: 700;
-                color:#760376;
+                color:#0E34A0;
                 text-transform: uppercase;
                 margin-bottom: 20px;
                 
@@ -353,13 +367,13 @@
                     // text-align: center;
                     padding: 5px 0;
                     font-size: 0.9em;
-
+                    // font-weight: 500;
                     text-transform: capitalize;
                     // color:#570080;
 
 
                     .title{
-                        color:#570080;
+                        color:#2446A9;
                         font-weight: 500;
                     }
 

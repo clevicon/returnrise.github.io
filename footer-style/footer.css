@@ -1,0 +1,81 @@
+.footer {
+  background-color: #3a3939;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+@media screen and (min-width: 900px) {
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 90px 0px;
+  }
+}
+.footer .footer-bd1, .footer .footer-bd2, .footer .footer-bd3 {
+  text-align: center;
+}
+.footer .footer-bd1 .footer-head, .footer .footer-bd2 .footer-head, .footer .footer-bd3 .footer-head {
+  color: rgba(180, 176, 246, 0.6862745098);
+  font-size: 1em;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.footer .footer-bd1 .footer-cont, .footer .footer-bd2 .footer-cont, .footer .footer-bd3 .footer-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  font-size: 0.9em;
+}
+@media screen and (min-width: 900px) {
+  .footer .footer-bd1 .footer-cont, .footer .footer-bd2 .footer-cont, .footer .footer-bd3 .footer-cont {
+    font-weight: 500;
+  }
+}
+.footer .footer-bd1 .footer-cont .footer-icon, .footer .footer-bd2 .footer-cont .footer-icon, .footer .footer-bd3 .footer-cont .footer-icon {
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.6862745098);
+  margin-right: 5px;
+}
+@media screen and (min-width: 900px) {
+  .footer .footer-bd1 .footer-cont .footer-icon, .footer .footer-bd2 .footer-cont .footer-icon, .footer .footer-bd3 .footer-cont .footer-icon {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .footer .footer-bd1 .footer-cont, .footer .footer-bd2 .footer-cont, .footer .footer-bd3 .footer-cont {
+    margin-bottom: 25px;
+  }
+}
+.footer .footer-bd1 .footer-address, .footer .footer-bd2 .footer-address, .footer .footer-bd3 .footer-address {
+  text-transform: capitalize;
+}
+.footer .footer-logo {
+  width: 70px;
+  margin: 20px 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.footer .footer-bd3 {
+  margin-top: 30px;
+}
+@media screen and (min-width: 900px) {
+  .footer .footer-bd3 {
+    margin: 0;
+  }
+}
+.footer .footer-img {
+  width: 80px;
+  margin: 10px;
+}
+@media screen and (min-width: 900px) {
+  .footer .footer-img {
+    width: 60px;
+  }
+}/*# sourceMappingURL=footer.css.map */

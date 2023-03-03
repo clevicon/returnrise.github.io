@@ -1,0 +1,260 @@
+.bd-cont {
+  font-family: "Poppins", sans-serif;
+}
+.bd-cont .head-cont {
+  position: relative;
+}
+.bd-cont .head-cont .head-img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.6;
+}
+.bd-cont .head-cont .head-text {
+  position: absolute;
+  padding: 10px;
+  top: 6%;
+  width: 70%;
+}
+.bd-cont .head-cont .head-text .welcome-text {
+  font-size: 2em;
+  font-weight: 600;
+  line-height: 1.5em;
+  color: rgba(71, 3, 62, 0.674);
+  text-transform: capitalize;
+}
+.bd-cont .head-cont .head-text .intro {
+  margin-top: 10px;
+  font-size: 0.9em;
+  font-weight: 500;
+  padding: 10px;
+  line-height: 1.3em;
+  color: rgba(56, 55, 56, 0.674);
+  background-color: rgba(192, 192, 192, 0.747);
+}
+.bd-cont .mid-section1 .about .about-text-head {
+  text-transform: capitalize;
+  font-size: 1.8em;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #760376;
+  padding: 10px;
+}
+.bd-cont .mid-section1 .about .about-cont {
+  padding: 10px 10px;
+  background-color: rgba(253, 170, 245, 0.2509803922);
+}
+.bd-cont .mid-section1 .about .about-cont .about-text {
+  font-size: 0.85em;
+  line-height: 1.55em;
+  padding: 9px;
+  letter-spacing: 0.01em;
+  color: rgba(0, 0, 0, 0.756);
+}
+.bd-cont .mid-section1 .about .about-cont .about-text .site-name {
+  color: #760376;
+  font-size: 1em;
+  font-weight: 500;
+}
+.bd-cont .mid-section1 .about .about-cont .more-detail button {
+  padding: 15px 20px;
+  margin: 5px 0;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 0.75em;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-color: rgba(118, 3, 118, 0.8862745098);
+}
+.bd-cont .mid-section1 .about .about-cont .more-detail button:hover {
+  color: white;
+  background-color: #540154;
+}
+.bd-cont .mid-section2 {
+  background-color: rgba(168, 163, 163, 0.2509803922);
+  margin-top: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bd-cont .mid-section2 .title-head {
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #760376;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  border: 1px dotted purple;
+  padding: 10px;
+}
+.bd-cont .mid-section2 .cert1-img img, .bd-cont .mid-section2 .cert2-img img {
+  width: 290px;
+  margin-bottom: 40px;
+}
+.bd-cont .mid-section3 {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bd-cont .mid-section3 .title-head {
+  font-size: 1.8em;
+  font-weight: 700;
+  color: #760376;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.bd-cont .mid-section3 .deposit-plans-subtext {
+  text-align: center;
+  font-size: 0.85em;
+  margin-bottom: 10px;
+  width: 250px;
+  line-height: 1.5em;
+}
+.bd-cont .mid-section3 .deposit-plans-subtext .site-name {
+  color: #760376;
+  font-size: 1em;
+  font-weight: 500;
+}
+.bd-cont .mid-section3 .deposit-plans .trial-plan-cont {
+  position: relative;
+  padding: 80px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: rgba(118, 3, 118, 0.3333333333);
+  margin: 60px 0;
+  border: 2px dotted white;
+}
+.bd-cont .mid-section3 .deposit-plans .trial-plan-cont .icon-cont img {
+  position: absolute;
+  top: -30px;
+  transform: translate(-50%);
+  background-color: #ecaeed;
+  border: 2px solid white;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.bd-cont .mid-section3 .deposit-plans .trial-plan-cont .trial-plan-head {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1em;
+}
+.bd-cont .mid-section3 .deposit-plans .trial-plan-cont .trial-plan-percent {
+  text-transform: capitalize;
+  text-align: center;
+  margin: 20px 0;
+}
+.bd-cont .mid-section3 .deposit-plans .trial-plan-cont .trial-plan-percent .num {
+  font-size: 2em;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #4f0151;
+}
+.bd-cont .mid-section3 .deposit-plans .trial-plan-cont .trial-plan-percent .duration {
+  font-weight: 400;
+  font-size: 0.85em;
+}
+.bd-cont .mid-section3 .deposit-plans .trial-plan-cont .trial-plan-info li {
+  padding: 5px;
+  font-size: 0.9em;
+  font-weight: 500;
+  color: #444444;
+  text-transform: capitalize;
+}
+.bd-cont .mid-section3 .deposit-plans .trial-plan-cont .trial-plan-info li span {
+  padding: 5px;
+  color: #4d004d;
+  font-weight: 600;
+}
+.bd-cont .mid-section3 .deposit-plans .trial-plan-cont .signup-btn {
+  position: absolute;
+  bottom: 20px;
+  padding: 12px 70px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9em;
+  font-weight: 600;
+  text-align: center;
+  color: #760376;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+.bd-cont .mid-section3 .deposit-plans .trial-plan-cont .signup-btn:hover {
+  color: white;
+  background-color: #540154;
+}
+.bd-cont .mid-section4 .pic-brk img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.bd-cont .mid-section4 .stats-info-cont {
+  padding: 20px 0;
+  background-color: rgba(120, 7, 120, 0.0470588235);
+}
+.bd-cont .mid-section4 .stats-info-cont .stats-info-head {
+  text-align: center;
+  font-size: 1.6em;
+  color: #760376;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.bd-cont .mid-section4 .stats-info-cont .stats-info-table {
+  padding: 30px;
+}
+.bd-cont .mid-section4 .stats-info-cont .stats-info-table .started {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.95em;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 5px 0;
+}
+.bd-cont .mid-section4 .stats-info-cont .stats-info-table .started .details {
+  font-weight: 600;
+  color: #570080;
+}
+.bd-cont .mid-section4 .company-info-cont {
+  margin-top: 30px;
+  text-align: center;
+  padding: 10px;
+}
+.bd-cont .mid-section4 .company-info-cont .company-info-logo img {
+  width: 100px;
+}
+.bd-cont .mid-section4 .company-info-cont .company-info-head {
+  text-align: center;
+  font-size: 1.6em;
+  font-weight: 700;
+  color: #760376;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.bd-cont .mid-section4 .company-info-cont .company-info-details {
+  line-height: 1.2rem;
+}
+.bd-cont .mid-section4 .company-info-cont .company-info-details .info {
+  padding: 5px 0;
+  font-size: 0.9em;
+  text-transform: capitalize;
+}
+.bd-cont .mid-section4 .company-info-cont .company-info-details .info .title {
+  color: #570080;
+  font-weight: 500;
+}/*# sourceMappingURL=index.css.map */

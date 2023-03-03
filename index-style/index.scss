@@ -1,0 +1,378 @@
+.bd-cont{
+    font-family: 'Poppins', sans-serif;
+    // padding:10px;
+    // overflow-x: hidden;
+    // background: rgba(107, 6, 92, 0.311);
+    // height: 100vh;
+    .head-cont{position: relative;
+        // background-color: rgba(104, 7, 102, 0.454);
+        .head-img{
+            // width: 50px;
+            img{
+                // max-width: 350px;
+                width:100%;
+                object-fit: cover;
+                opacity: 0.6;
+
+            }
+        }
+
+        .head-text{
+            // background-color: rgba(243, 241, 241, 0.466);
+            position: absolute;
+            padding: 10px;
+            top: 6%;
+            width: 70%;
+            .welcome-text{
+                font-size: 2em;
+                font-weight: 600;
+                line-height: 1.5em;
+                color: rgba(71, 3, 62, 0.674);
+                text-transform: capitalize;
+
+            }
+
+            .intro{
+                margin-top: 10px;
+                font-size: 0.9em;
+                font-weight: 500;
+                padding: 10px;
+                line-height: 1.3em;
+                color: rgba(56, 55, 56, 0.674);
+                background-color: rgba(192, 192, 192, 0.747);
+            }
+        }
+    }
+
+    .mid-section1{
+        // background-color: #051b4dad;
+       
+        // height: 500px;
+
+        .about{
+            .about-text-head{
+                text-transform: capitalize;
+                font-size: 1.8em;
+                font-weight: 700;
+                margin-bottom: 10px;
+                color: #760376;
+                padding: 10px;
+            }
+
+            .about-cont{
+                padding: 10px 10px;
+                // margin-top: 30px;
+                background-color:#fdaaf540;;
+
+                .about-text{
+                    .site-name{
+                        color:#760376;
+                        font-size: 1em;
+                        font-weight: 500;
+                    }
+                    font-size: 0.85em;
+                    line-height: 1.55em;
+                    padding: 9px;
+                    letter-spacing: 0.01em;
+                    color: rgba(0, 0, 0, 0.756);
+                    // width: 300px;
+                    
+                    
+                }
+
+                .more-detail{
+                    
+                    button{
+                        padding: 15px 20px;
+                        margin: 5px 0;
+                        border:none;
+                       text-transform: uppercase;
+                       font-weight: 500;
+                       text-align: center;
+                       border-radius: 5px;
+                       font-size: 0.75em;
+                       text-align: center;
+                       color:white ;
+                       text-transform: uppercase;
+                       transition: 0.5s;
+                       background-color:#760376e2 ;
+   
+                       &:hover{
+                       color: white ;
+                           background-color:#540154;
+                       }
+
+                    }
+                    
+                    
+                }
+            }
+           
+        }
+    }
+
+    .mid-section2{
+        background-color: #a8a3a340;
+        margin-top: 30px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .title-head{
+            font-size:1.3em;
+            // text-align: center;
+            font-weight: 700;
+            color:#760376;
+            text-transform:uppercase;
+            margin-bottom: 30px;
+            border: 1px dotted purple;
+            padding: 10px;
+        }
+        
+        .cert1-img, .cert2-img{
+
+            img{
+            width: 290px;
+            margin-bottom: 40px;
+
+            }
+            
+        }
+    }
+
+    .mid-section3{
+        // background-color: red;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .title-head{
+            font-size: 1.8em;
+            font-weight: 700;
+            color:#760376;
+            text-transform:uppercase;
+            margin-bottom: 10px;
+        }
+
+        .deposit-plans-subtext{
+            text-align: center;
+            font-size: 0.85em;
+            margin-bottom: 10px;
+            width: 250px;
+            line-height: 1.5em;
+            
+            .site-name{
+                color:#760376;
+                    font-size: 1em;
+                    font-weight: 500;
+            }
+            
+        }
+
+        .deposit-plans{
+            // background-color: red;
+
+
+
+            .trial-plan-cont{
+                position: relative;
+                padding: 80px 40px;
+                // width:250px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                border-radius: 5px;
+                background-color: #76037655;
+                margin: 60px 0;
+                border: 2px dotted white;
+
+                
+
+
+                .icon-cont{
+                   
+                //    padding: 10px;
+                    img{
+                        position: absolute;
+                        top: -30px;
+                        transform: translate(-50%);
+                        background-color:#ecaeed;
+                        border: 2px solid white;
+                        height: 60px;
+                        width: 60px;
+                        border-radius: 50%;
+                        
+                        object-fit: cover;
+                        // width: 200px;
+                    }
+                }
+
+                .trial-plan-head{
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    font-size: 1em;
+                    // margin-top: 10px;
+                }
+                .trial-plan-percent{
+                    text-transform: capitalize;
+                    text-align: center;
+                    margin: 20px 0;
+
+                    .num{
+                        font-size:2em;
+                        font-weight: 600;
+                        margin-bottom: 8px;
+                         color: #4f0151;
+
+                        
+                    }
+
+                    .duration{
+                        font-weight: 400;
+                        font-size: 0.85em;
+                        
+                    }
+                    
+                }
+
+                .trial-plan-info{
+                    li{
+                        padding: 5px;
+                        font-size: 0.9em;
+                        font-weight: 500;
+                        color: #444444;
+                        text-transform: capitalize;
+
+                        span{
+                            padding: 5px;
+                            color: #4d004d;
+                            font-weight: 600;
+                        }
+                    }
+                }
+
+                .signup-btn{
+                    position: absolute;
+                    bottom: 20px;
+                    padding: 12px 70px;
+                    outline: none;
+                    border: none;
+                    border-radius: 5px;
+                    font-size: 0.9em;
+                    font-weight: 600;
+                    text-align: center;
+                    color:#760376 ;
+                    text-transform: uppercase;
+                    transition: 0.5s;
+
+                    &:hover{
+                    color:white ;
+                        background-color: #540154;
+                    }
+                }
+            }
+        }
+
+        
+    }
+
+    .mid-section4{
+        // padding: 100px 0;
+        .pic-brk{
+            img{
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .stats-info-cont{
+            // margin-top: 50px;
+            padding: 20px 0;
+            background-color:#7807780c;
+
+            .stats-info-head{
+                text-align: center;
+                font-size: 1.6em;
+                color:#760376;
+                font-weight: 700;
+                text-transform: uppercase;
+                margin-bottom: 5px;
+
+            }
+
+            .stats-info-table{
+                padding: 30px;
+
+                .started{
+                    display: flex;
+                    justify-content:space-between;
+                    align-items: center;
+                    font-size: 0.95em;
+                    font-weight:400;
+                    text-transform: uppercase;
+                    padding: 5px 0;
+
+                    .details{
+                    font-weight:600;
+                    color: #570080;
+
+                    }
+                }
+            }
+        }
+
+        .company-info-cont{
+            margin-top: 30px;
+            text-align: center;
+            padding: 10px;
+            // background-color: red;
+            .company-info-logo{
+                img{
+                    width: 100px;
+                }
+            }
+
+            .company-info-head{
+                text-align: center;
+                font-size: 1.6em;
+                font-weight: 700;
+                color:#760376;
+                text-transform: uppercase;
+                margin-bottom: 20px;
+                
+            }
+            .company-info-details{
+                line-height: 1.2rem;
+
+                .info{
+                    // text-align: center;
+                    padding: 5px 0;
+                    font-size: 0.9em;
+
+                    text-transform: capitalize;
+                    // color:#570080;
+
+
+                    .title{
+                        color:#570080;
+                        font-weight: 500;
+                    }
+
+                    
+                }
+
+                // .office-address{
+                //     background-color: red;
+                //     text-align: center;
+                // }
+            }
+        }
+    }
+
+   
+}

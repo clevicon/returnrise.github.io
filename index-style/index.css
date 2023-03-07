@@ -196,7 +196,6 @@
 }
 .bd-cont .mid-section1 {
   padding: 10px;
-  margin-top: 15px;
   background-color: whitesmoke;
 }
 .bd-cont .mid-section1 .mid-section-intro {
@@ -300,7 +299,6 @@
   padding: 1px;
   height: 90px;
   transform-origin: center;
-  transition: 0.5s;
   transform: rotate(135.5deg);
 }
 @media screen and (min-width: 720px) and (max-width: 899px) {

@@ -32,9 +32,7 @@
                 @media screen and (min-width:1200px){
                                     
                     height: 600px;
-                    // height: auto;
                     overflow: hidden;
-                    // background-color: blue;
                     
                 }
            
@@ -294,7 +292,7 @@
 
     .mid-section1{
         padding: 10px;
-        margin-top: 15px;
+        // margin-top: 15px;
         background-color: whitesmoke;
        
         // height: 500px;
@@ -368,21 +366,11 @@
                         @media screen and (min-width:900px){
                             justify-content:space-around;
                             gap: 20px;
-                        // background-color: rgba(160, 166, 167, 0.128);
-                        // padding: 10px;
-
-                        // background-color: red;
-                        // width: 100%;
-                        // padding: 40px 20px;
-
-
                         }
         
         
                         .box{
                             position: relative;
-                            // padding: 10px;
-                            // max-width: 500px;
                             height: 60px;
                             width: 60px;
                             transform: rotate(45deg);
@@ -390,12 +378,8 @@
                             border: 1px solid #021b5e;
                             border-radius: 5px;
                             display: flex;
-                            // flex-direction: column;
                             align-items: center;
                             justify-content: center;
-                            // z-index:30;
-                            // margin: 30px;
-                        
 
                             @media screen and (min-width:900px){
                             transform: rotate(0deg);
@@ -414,15 +398,15 @@
                                 object-fit: cover;
                                 z-index:20;
         
-                            transform: rotate(-45deg);
+                                transform: rotate(-45deg);
 
-                            @media screen and (min-width:900px){
-                                
-                            transform: rotate(0deg);
-                            width: 100px;
-                            height: 100px;
+                                @media screen and (min-width:900px){
+                                    
+                                transform: rotate(0deg);
+                                width: 100px;
+                                height: 100px;
 
-                            }
+                                }
         
                             }
         
@@ -437,7 +421,6 @@
                                 padding: 1px;
                                 height: 90px;
                                 transform-origin: center;
-                                transition: 0.5s;
                                 transform: rotate(135.5deg);
         
                                 @media screen and (min-width:720px) and (max-width:899px){

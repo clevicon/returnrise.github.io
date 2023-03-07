@@ -100,7 +100,7 @@
                     // padding: 10px;
                     word-wrap: break-word;
                     font-size: 1.9em;
-                    font-weight: 700;
+                    font-weight: 500;
                     line-height: 1.5em;
                     // color: #2446A9;
                     color:whitesmoke;
@@ -108,6 +108,12 @@
     
                     @media screen and (min-width:720px){
                         font-size: 2.5em;
+                    }
+
+                    .site-name{
+                    font-size: 1.5em;
+                    font-weight: 700;
+                    // color: rgba(91, 102, 253, 0.986);
                     }
                 }
     

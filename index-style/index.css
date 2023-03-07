@@ -203,7 +203,7 @@
   margin-bottom: 20px;
 }
 .bd-cont .mid-section1 .mid-section-intro .intro-details {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   padding: 10px 0;
 }
 .bd-cont .mid-section1 .mid-section-intro .intro-details .intro-head {
@@ -221,10 +221,11 @@
   }
 }
 .bd-cont .mid-section1 .mid-section-intro .intro-details .intro-msg {
-  font-size: 1em;
+  font-size: 0.9em;
   text-align: center;
   font-weight: 500;
   padding-left: 10px;
+  color: rgb(2, 11, 109);
   text-transform: capitalize;
 }
 @media screen and (min-width: 900px) {

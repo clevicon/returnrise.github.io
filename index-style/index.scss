@@ -1,5 +1,6 @@
 .bd-cont{
     font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
     
         
     
@@ -1251,9 +1252,18 @@
     }
 
     .mid-section6{
-        background-color:#34343410;
+        // background-color:#34343410;
+        background-color: white;
         margin-top: 10px;
         padding: 20px;
+
+        @media screen and (min-width:900px){
+                              
+            background-image: none;
+          }
+        
+
+
 
         .cash-inflow{
             text-align: center;
@@ -1328,6 +1338,161 @@
 
         .chart{
             background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='400' height='150' preserveAspectRatio='none' viewBox='0 0 400 150'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1021%26quot%3b)' fill='none'%3e%3cpath d='M-12.95 34.67C33.03 35.96 86.51 100.38 157.63 103.67 228.75 106.96 217.52 157.29 242.92 159.72' stroke='rgba(253%2c 253%2c 253%2c 0.06)' stroke-width='2'%3e%3c/path%3e%3cpath d='M-28.91 89.89C21.12 89.46 89.56 38.24 164.63 38.89 239.7 39.54 223.98 152.34 261.4 166.67' stroke='rgba(253%2c 253%2c 253%2c 0.06)' stroke-width='2'%3e%3c/path%3e%3cpath d='M-32.32 71.78C1.61 70.91 26.66 20.77 94.09 22.28 161.52 23.79 174.64 152.33 220.5 165.92' stroke='rgba(253%2c 253%2c 253%2c 0.06)' stroke-width='2'%3e%3c/path%3e%3cpath d='M-0.2 143.39C38.97 141.02 68.22 68.33 137.67 68.39 207.12 68.45 232.08 170.93 275.54 177.22' stroke='rgba(253%2c 253%2c 253%2c 0.06)' stroke-width='2'%3e%3c/path%3e%3cpath d='M-21.83 117.66C7.74 117.72 36.57 136.41 94.97 136.41 153.37 136.41 153.23 117.65 211.76 117.66 270.29 117.67 298.12 151.71 328.56 152.07' stroke='rgba(253%2c 253%2c 253%2c 0.06)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1021'%3e%3crect width='400' height='150' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+        }
+    }
+
+    .mid-section7{
+
+        @media screen and (min-width:900px){
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 100%;
+        }
+      
+        .latest-deposit-withdrawn{
+            padding: 15px;
+            margin-top: 15px;
+
+            @media screen and (min-width:900px){
+              width:50%;
+            }
+          
+            
+            
+
+            .latest-deposit-head{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                font-size: 1.4em;
+                text-transform: uppercase;
+                font-weight: 600;
+                // background-color:#122151c5 ;
+                // color:white;
+                color:#0E34A0;
+
+                padding: 10px;
+                margin-bottom: 0px;
+                border-radius: 5px;
+
+                @media screen and (min-width:900px){
+                background-color:transparent;
+                color:#0E34A0;
+                   
+                    
+                }
+              
+
+                .deposit-withdrawn-icon{
+                    // display: none;
+                    color: #0E34A0;
+                    margin-left: 5px;
+
+
+                    @media screen and (min-width:900px){
+                    color: #0E34A0;
+                    font-size: 1em;
+                    margin-left: 5px;
+                    display: flex;
+                        
+                    }
+                  
+
+                }
+
+            }
+
+            .table-box{
+                margin: 20px auto;
+
+
+                .table-row{
+                    display: table;
+                    width: 90%;
+                    margin: 0px auto;
+                    background: transparent;
+                    padding: 12px 0;
+                    color: #555;
+                    font-size: 13px;
+                    border-radius: 5px 5px 0 0;
+                    border: 1px solid rgba(0, 0, 0, 0.146);
+                    // border-bottom: none;
+                    // box-shadow: 0 1px 4px 0 rgba(0,0,50,0.3);
+
+                    @media screen and (min-width:900px){
+                    font-size: 15px;
+                       
+                    }
+                  
+
+                   
+                   
+
+                    .table-cell{
+                        display: table-cell; 
+                        width: 30%;
+                        text-align: center;
+                        padding: 0.5px 0;
+                        border-right: 1px solid #d6d4d4;
+                        vertical-align: middle;
+
+                        .coin{
+                            img{
+                                width: 23px;
+                            }
+                        }
+
+                        .amount{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color:green;
+                            font-weight: 500;
+                            // background-color: red;
+                            // padding: 0 20px;
+
+                            .amount-icon{
+                                // color: red;
+                                font-size: 0.7em;
+                                margin-left: 5px;
+                                // display: none;
+                            }
+                        }
+
+                        .withdrawn{
+                            color: rgba(255, 0, 0, 0.779);
+                        }
+
+                        .user{
+                        text-transform:uppercase;
+                        font-weight: 500;
+                        color: #031138;
+                        font-size: 0.85em;
+                        }
+                    }
+
+                    .first-cell{
+                        width: 15%;
+                        text-align: center;
+                        padding-left: 10px;
+                        
+                    }
+
+                    .last-cell{
+                        border-right: none;
+                    }
+
+                  
+                }
+
+                .clear-bottom{
+                    border-bottom: none;
+
+                    }
+            }
+
         }
     }
 
